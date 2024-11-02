@@ -210,7 +210,6 @@
 
   function onScroll(event) {
     var scrollPos = $(document).scrollTop();
-	console.log(scrollPos)
     $(".nav a").each(function () {
       var currLink = $(this);
       var refElement = $(currLink.attr("href"));
