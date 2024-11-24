@@ -785,7 +785,7 @@ Banner Style
 .main-banner {
   position: relative;
   padding: 295px 0px 80px 0px;
-  background-image: url(../images/banner-right.jpg) !important;
+  background-image: url(../images/banner-right.webp) !important;
   background-size: contain;
   background-position: right 3rem;
   background-repeat: no-repeat;
@@ -882,7 +882,7 @@ Services Style
 }
 
 .services::before {
-  content: url(../images/services-left.jpg);
+  content: url(../images/services-left.webp);
   top: 120px;
   left: 0;
   position: absolute;
@@ -1047,7 +1047,7 @@ Infos Style
 }
 
 .infos .main-content .left-image {
-  background-image: url(../images/left-infos.jpg);
+  background-image: url(../images/left-infos.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -1281,10 +1281,11 @@ Contact Style
   margin-bottom: 15px;
 }
 
-.contact-us-content .more-info h4 a {
+.contact-us-content .more-info h6 a {
   color: #fff;
   font-size: 16px;
   font-weight: 400;
+  display: inline-block;
 }
 
 .contact-us-content .more-info .social-icons ul {
@@ -1293,7 +1294,10 @@ Contact Style
   justify-content: center;
   align-items: center;
 }
-
+.contact-us-content .more-info .social-icons ul li a{
+  display: inline-block;
+  cursor: pointer;
+}
 /* 
 ---------------------------------------------
 Footer Style
