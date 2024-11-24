@@ -1783,6 +1783,9 @@ body {
     background-position: center -65px;
     background-size: cover;
   }
+  .main-banner::before{
+    content: unset;
+  }
   .main-banner .line-dec {
     margin: 20px auto;
   }
